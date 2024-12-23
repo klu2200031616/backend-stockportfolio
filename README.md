@@ -1,9 +1,9 @@
 Spring Boot Backend for Real-Time Stock Prices
 
-This Spring Boot project uses the Finhub API to fetch real-time stock prices. Below is the documentation to help you understand and run the project.
+This Spring Boot project uses the Finnhub API to fetch real-time stock prices. Below is the documentation to help you understand and run the project.
 
 Features:
-1. Fetch real-time stock prices using the Finhub API.
+1. Fetch real-time stock prices using the Finnhub API.
 2. Easy-to-use Spring Boot framework.
 3. Designed for scalability and future enhancements.
 
@@ -18,8 +18,8 @@ git clone <repository-url>
 cd <repository-folder>
 
 Set Up Environment Variables
-Add your Finhub API key as an environment variable or in the application.properties file:
-finhub.api.key=your_api_key_here
+Add your Finnhub API key as an environment variable or in the application.properties file:
+finnhub.api.key=your_api_key_here
 Or
 You can add it directly in the StockService.java file:
 private String apiKey=your_api_key_here;
@@ -33,7 +33,7 @@ Access the Application : The application runs at http://localhost:2024.
 Assumptions and Limitations :
 
 Assumptions:
-1. The user has a valid Finhub API key.
+1. The user has a valid Finnhub API key.
 2. The stock symbols used in requests are valid and supported by the Finhub API.
 
 Limitations:
@@ -47,7 +47,7 @@ API Documentation: Add the URL to live API docs (e.g., Swagger UI if implemented
 
 Troubleshooting :
 Issue: Unable to fetch data.
-Solution: Check the validity of the Finhub API key and ensure it’s correctly set in the application.
+Solution: Check the validity of the Finnhub API key and ensure it’s correctly set in the application.
 
 Issue: Application not starting.
 Solution: Ensure Java and Maven versions are compatible and check for any errors during the build process.
