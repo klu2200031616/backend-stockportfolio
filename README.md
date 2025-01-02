@@ -37,13 +37,10 @@ Assumptions:
 2. The stock symbols used in requests are valid and supported by the Finhub API.
 
 Limitations:
-1. The application fetches real-time prices but does not store historical data.
-2. Rate-limiting is dependent on the Finhub API’s free/paid tier restrictions.
+1. Rate-limiting is dependent on the Finhub API’s free/paid tier restrictions.
 
 Links :
-Deployed Application: Add the URL if deployed (e.g., https://your-deployment-url)
-
-API Documentation: Add the URL to live API docs (e.g., Swagger UI if implemented).
+Deployed Application: https://triveni-stockportfolio-tracker.vercel.app/
 
 Troubleshooting :
 Issue: Unable to fetch data.
